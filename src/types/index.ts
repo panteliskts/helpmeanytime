@@ -1,3 +1,28 @@
+// ============================================
+// 👨‍💻 DEVELOPER 2 - TASK 2 (Hour 2-4)
+// ============================================
+// 
+// ΟΙ TYPES ΥΠΑΡΧΟΥΝ ΗΔΗ! ✅
+//
+// Έχεις έτοιμα:
+// - User (με roles: citizen, volunteer, business, municipality)
+// - Project (με όλα τα fields που χρειάζεσαι)
+// - Pledge (3 types: time, money, materials)
+// - ProjectStatus (pending_approval, approved, in_progress, κλπ)
+//
+// ΤΙ ΜΠΟΡΕΙΣ ΝΑ ΠΡΟΣΘΕΣΕΙΣ (προαιρετικό):
+// 1. Validation schemas (αν χρησιμοποιείς Zod)
+// 2. API Response types:
+//    type ApiResponse<T> = { data: T, error?: string }
+// 3. Input types για forms:
+//    type ProjectInput = Omit<Project, 'id' | 'createdAt'>
+//
+// Αυτά τα types θα τα χρησιμοποιείς ΠΑΝΤΟΥ!
+//
+// ΧΡΟΝΟΣ: 2 ώρες (ή skip αν είναι OK)
+// COMMIT: "feat: add type definitions and validation"
+// ============================================
+
 // TypeScript types and interfaces for the application
 
 export interface User {

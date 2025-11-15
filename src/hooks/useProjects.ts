@@ -1,3 +1,27 @@
+// ============================================
+// 👨‍💻 DEVELOPER 1 - TASK 3 (Hour 4-6)
+// ============================================
+// 
+// Custom hook για Projects - ΥΠΑΡΧΕΙ ΗΔΗ SKELETON! ✅
+//
+// ΤΙ ΠΡΕΠΕΙ ΝΑ ΚΑΝΕΙΣ:
+// 1. Συμπλήρωσε το useEffect να κάνει fetch:
+//    - Call GET /api/projects με filters
+//    - Handle loading & error states
+//
+// 2. Πρόσθεσε functions (αν δεν υπάρχουν):
+//    - createProject(data) -> POST /api/projects
+//    - updateProject(id, data) -> PATCH /api/projects/[id]
+//    - deleteProject(id) -> DELETE /api/projects/[id]
+//
+// 3. Return όλα αυτά στο hook
+//
+// ΠΑΡΑΔΕΙΓΜΑ ΧΡΗΣΗΣ:
+// const { projects, loading, createProject } = useProjects()
+//
+// ΧΡΟΝΟΣ: Μέρος των 4 ωρών
+// ============================================
+
 // Custom React hooks
 
 import { useState, useEffect } from 'react'

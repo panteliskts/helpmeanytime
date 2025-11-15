@@ -1,3 +1,27 @@
+// ============================================
+// 👨‍💻 DEVELOPER 2 - TASK 1 (Hour 0-2)
+// ============================================
+// 
+// ΤΑ MOCK DATA ΥΠΑΡΧΟΥΝ ΗΔΗ! ✅
+// 
+// Έχεις έτοιμα:
+// - mockUsers: 3 users (citizen, volunteer, business)
+// - mockProjects: 3 projects με διαφορετικά status
+// - mockPledges: 4 pledges (money, time, materials)
+//
+// ΤΙ ΜΠΟΡΕΙΣ ΝΑ ΚΑΝΕΙΣ (προαιρετικό):
+// 1. Πρόσθεσε περισσότερα projects (5-10 total)
+// 2. Πρόσθεσε περισσότερα pledges
+// 3. Χρησιμοποίησε αυτά στα API routes για testing
+//    ΠΡΙΝ συνδέσεις τη database!
+//
+// ΠΑΡΑΔΕΙΓΜΑ ΧΡΗΣΗΣ στο API:
+// import { mockProjects } from '@/lib/mockData'
+// return NextResponse.json({ projects: mockProjects })
+//
+// ΧΡΟΝΟΣ: Μέρος των 2 ωρών (ή skip αν αρκούν αυτά)
+// ============================================
+
 // Mock data for development and demo purposes
 import { Project, User, Pledge } from '@/types'
 

@@ -1,3 +1,35 @@
+// ============================================
+// 👨‍💻 DEVELOPER 2 - TASK 1 (Hour 0-2)
+// ============================================
+// 
+// ΤΙ ΠΡΕΠΕΙ ΝΑ ΚΑΝΕΙΣ:
+// Κάποιες functions υπάρχουν ήδη! Πρέπει να προσθέσεις:
+//
+// 1. calculatePledgeProgress():
+//    - Input: { money: 250, hours: 10, materials: 3 }, budget: 500
+//    - Output: ποσοστό (π.χ. 75%)
+//    - Λογική: Υπολόγισε την αξία όλων (money + hours*10 + materials*50)
+//
+// 2. formatTime():
+//    - Input: 10
+//    - Output: "10 ώρες" ή "1 ώρα"
+//
+// 3. getStatusColor():
+//    - Input: 'pending', 'approved', 'active', 'completed', 'rejected'
+//    - Output: Tailwind classes (π.χ. 'bg-yellow-100 text-yellow-800')
+//
+// 4. getStatusText():
+//    - Input: 'pending'
+//    - Output: 'Εκκρεμεί έγκριση' (στα ελληνικά)
+//
+// 5. getCategoryIcon():
+//    - Input: 'infrastructure', 'environment', 'social', 'culture'
+//    - Output: emoji ή icon name (π.χ. '🏗️')
+//
+// ΧΡΟΝΟΣ: 2 ώρες
+// COMMIT: "feat: implement utility functions and mock data"
+// ============================================
+
 // Utility functions
 import { type ClassValue, clsx } from 'clsx'
 import { twMerge } from 'tailwind-merge'
